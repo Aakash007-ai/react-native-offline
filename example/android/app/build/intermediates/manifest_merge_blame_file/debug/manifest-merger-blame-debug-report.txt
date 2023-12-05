@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jsonbourne.reactnativeofflineexample"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:4:3-75
+11-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:3:3-77
+13-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:3:20-75
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:5:3-63
+14-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:6:3-78
+15-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:9:7-58
+19-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:10:7-67
+21-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:11:7-37
+23-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:11:13-35
+24        </intent>
+25        <!-- Query open documents -->
+26        <intent>
+26-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:18
+27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+27-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-79
+27-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:21-76
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Admin\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+31-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Admin\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Admin\.gradle\caches\transforms-3\94a647b0fb210392b4467cf9513736e5\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+32-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Admin\.gradle\caches\transforms-3\94a647b0fb210392b4467cf9513736e5\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+33
+34    <application
+34-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:14:3-33:17
+35        android:name="com.jsonbourne.reactnativeofflineexample.MainApplication"
+35-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:14:16-47
+36        android:allowBackup="true"
+36-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:14:116-142
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\63a3df243d2d102452600006144a86df\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:14:81-115
+40        android:label="@string/app_name"
+40-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:14:48-80
+41        android:theme="@style/AppTheme"
+41-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:14:143-174
+42        android:usesCleartextTraffic="true" >
+42-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:14:175-210
+43        <meta-data
+43-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:15:5-82
+44            android:name="expo.modules.updates.ENABLED"
+44-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:15:16-59
+45            android:value="true" />
+45-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:15:60-80
+46        <meta-data
+46-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:16:5-93
+47            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+47-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:16:16-68
+48            android:value="47.0.0" />
+48-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:16:69-91
+49        <meta-data
+49-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:17:5-105
+50            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+50-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:17:16-80
+51            android:value="ALWAYS" />
+51-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:17:81-103
+52        <meta-data
+52-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:18:5-99
+53            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+53-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:18:16-79
+54            android:value="0" />
+54-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:18:80-97
+55        <meta-data
+55-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:19:5-143
+56            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+56-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:19:16-67
+57            android:value="https://exp.host/@jsonbourne/react-native-offline-example" />
+57-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:19:68-141
+58
+59        <activity
+59-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:5-31:16
+60            android:name="com.jsonbourne.reactnativeofflineexample.MainActivity"
+60-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:15-43
+61            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+61-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:77-154
+62            android:exported="true"
+62-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:276-299
+63            android:label="@string/app_name"
+63-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:44-76
+64            android:launchMode="singleTask"
+64-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:155-186
+65            android:screenOrientation="portrait"
+65-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:300-336
+66            android:theme="@style/Theme.App.SplashScreen"
+66-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:230-275
+67            android:windowSoftInputMode="adjustResize" >
+67-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:20:187-229
+68            <intent-filter>
+68-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:21:7-24:23
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:22:9-60
+69-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:22:17-58
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:23:9-68
+71-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:23:19-66
+72            </intent-filter>
+73            <intent-filter>
+73-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:25:7-30:23
+74                <action android:name="android.intent.action.VIEW" />
+74-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:9:7-58
+74-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:9:15-56
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:27:9-67
+76-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:27:19-65
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:10:7-67
+77-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:10:17-65
+78
+79                <data android:scheme="com.jsonbourne.reactnativeofflineexample" />
+79-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:11:7-37
+79-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:11:13-35
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:32:5-106
+83            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+83-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:32:15-79
+84            android:exported="false" />
+84-->C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\android\app\src\main\AndroidManifest.xml:32:80-104
+85
+86        <provider
+86-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-32:20
+87            android:name="expo.modules.filesystem.FileSystemFileProvider"
+87-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-74
+88            android:authorities="com.jsonbourne.reactnativeofflineexample.FileSystemFileProvider"
+88-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-74
+89            android:exported="false"
+89-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+90            android:grantUriPermissions="true" >
+90-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-47
+91            <meta-data
+91-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:70
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-67
+93                android:resource="@xml/file_system_provider_paths" />
+93-->[:expo-file-system] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-67
+94        </provider>
+95
+96        <meta-data
+96-->[:expo-modules-core] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:89
+97            android:name="org.unimodules.core.AppLoader#react-native-headless"
+97-->[:expo-modules-core] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-79
+98            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+98-->[:expo-modules-core] C:\Users\Admin\Desktop\react-native-offline-6.0.1\example\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-86
+99
+100        <provider
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+101            android:name="androidx.startup.InitializationProvider"
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+102            android:authorities="com.jsonbourne.reactnativeofflineexample.androidx-startup"
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+103            android:exported="false" >
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+104            <meta-data
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+106                android:value="androidx.startup" />
+106-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+107            <meta-data
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+109                android:value="androidx.startup" />
+109-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+110        </provider>
+111    </application>
+112
+113</manifest>

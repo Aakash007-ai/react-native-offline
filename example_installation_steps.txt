@@ -1,0 +1,7 @@
+first clone
+
+degrade adepedencies according to app
+
+npm install
+expo start
+check incomatible and match with comatability
